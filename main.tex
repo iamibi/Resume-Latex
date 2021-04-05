@@ -1,0 +1,250 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+\usepackage{graphicx}
+\graphicspath{{./}}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+\begin{center}
+    \textbf{\Huge \scshape Syed Mohammad Ibrahim} \\ \vspace{1pt}
+    \small +91-7509769579 $|$ \href{mailto:sm.ibrahim@outlook.in}{sm.ibrahim@outlook.in} \\ \vspace{2pt}
+    \href{https://www.linkedin.com/in/sumiibi}{\includegraphics[scale=0.08]{linkedin.png}} $|$
+    \href{https://github.com/iamibi}{\includegraphics[scale=0.10]{github.png}} $|$
+    \href{https://www.quora.com/profile/Syed-Mohammad-Ibrahim}{\includegraphics[scale=0.18]{quora.png}}
+\end{center}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Poshmark India Pvt. Ltd.}{Chennai, India}
+      {Software Engineer - II}{Jul. 2020 -- Present}
+    \resumeItemListStart
+        \resumeItem{Responsible for external partners integration like Facebook, Twitter, etc.}
+        \resumeItem{Focus on the key growth solutions to boost the active user base.}
+        \resumeItem{Optimizations to the above mentioned key areas with relevant application advantages.}
+    \resumeItemListEnd
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textit{\small{Software Engineer - I}} & \textit{\small {Nov. 2018 -- Jul. 2020}} \\
+    \end{tabular*}\vspace{-7pt}
+    \resumeItemListStart
+        \resumeItem{Facilitated the infrastructure for building Image SEO.}
+        \resumeItem{Migrated the tracking pixels from code implementation to Google Tag Manager (GTM).}
+        \resumeItem{Optimized and Improved the Posh Influencer program.}
+    \resumeItemListEnd
+    
+    \resumeSubheading
+      {Tata Consultancy Services}{Chennai, India}
+      {Assistant System Engineer}{Jul. 2018 -- Nov. 2018}
+    \resumeItemListStart
+        \resumeItem{Handled functionality for an Airline enterprise iOS App.}
+        \resumeItem{Conducted learning sessions with respect to the new MVVM approach for the team.}
+        \resumeItem{Organized events for TCS Employees at Siruseri Campus as part of TCS Interactive initiative.}
+    \resumeItemListEnd
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textit{\small{Assistant System Engineer - Trainee}} & \textit{\small {Aug. 2017 -- Jul. 2018}} \\
+    \end{tabular*}\vspace{-7pt}
+    \resumeItemListStart
+        \resumeItem{Implemented the automation testing functionality in the given iOS based project.}
+        \resumeItem{Conducted a technical drive amongst peers every month for keeping the team updated with the latest trends.}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+      {\textbf{Laughter Challenge} $|$ \emph{HTML, CSS, Bootstrap, Javascript}}{\href{https://github.com/harshmandalgi/laugh-challenge}{\includegraphics[scale=0.10]{github.png}}}
+      \resumeItemListStart
+        \resumeItem{At hackathon named Game-Jam organized by Poshmark, we as a team created a Try Not to Laugh Challenge where the player will be presented with funny videos and will be tempted to laugh.}
+        \resumeItem{Created a webpage which renders a video section and a user camera section.}
+        \resumeItem{A miniature machine learning library is used for identifying the player’s smile and scoring them accordingly.}
+      \resumeItemListEnd
+  \resumeProjectHeading
+      {\textbf{Cricket Chatbot} $|$ \emph{Dialogflow, Cricinfo API}}{}
+      \resumeItemListStart
+        \resumeItem{A cricket chatbot designed during the Poshmark Hackathon.}
+        \resumeItem{Used the Dialogflow API integration with Slack and Crickinfo API to fetch real time updates.}
+        \resumeItem{User has to ask questions in the form of Slack messages about cricket and the chatbot will answer based on the API response.}
+      \resumeItemListEnd
+  \resumeProjectHeading
+      {\textbf{Blowfish Cipher} $|$ \emph{Python}}{\href{https://github.com/iamibi/Blowfish-Cipher}{\includegraphics[scale=0.10]{github.png}}}
+      \resumeItemListStart
+        \resumeItem{Minor project on analysis and implementation of blowfish cipher for password encryption.}
+        \resumeItem{A terminal based program that accepts a password as input and saves it as a cipher text in a file.}
+      \resumeItemListEnd
+  \resumeProjectHeading
+      {\textbf{RSA Cryptographic Algorithm} $|$ \emph{Python}}{\href{https://github.com/iamibi/RSA-Cryptographic-Algorithm}{\includegraphics[scale=0.10]{github.png}}}
+      \resumeItemListStart
+        \resumeItem{RSA Algorithm for message encryption using block cipher.}
+        \resumeItem{Accepts a plain text message via terminal or file as input and outputs an encrypted message.}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-------------HONORS AND AWARDS-------------
+\section{Honors and Awards}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Star Performer}{: Star performer at TCS for valuable contribution to the project. } \\
+     \textbf{Academics}{:} 
+     \resumeItemListStart
+        \resumeItem {Earned Elite Certificate in \href{https://nptel.ac.in/noc/Ecertificate/?q=noc15-cs15/NPTEL15CS150614020.jpg}{\underline{Introduction to Programming in C}} from IIT Kanpur.}
+        \resumeItem {Earned Elite Certificate in \href{https://nptel.ac.in/noc/Ecertificate/?q=linkedin/noc16-cs06/NPTEL16CS062715051.jpg}{\underline{Programming, Data Structures and Algorithms}} from IIT Madras.}
+        \resumeItem {Won Clash of Codies organized by SISTech, Bhopal.}
+        \resumeItem {Achieved 177th Position in TCS Code Vita 2k16 at National Level.}
+     \resumeItemListEnd
+    }}
+ \end{itemize}
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Ruby, Python, C/C++, Swift } \\
+     \textbf{Frameworks}{: Ruby on Rails, Node.js, Cucumber, RSpec, XCode Test Suite } \\
+     \textbf{Databases}{: MongoDB, Amazon Redshift } \\
+     \textbf{Developer Tools}{: Git, Docker, Vagrant, Google Tag Manager, Jenkins } \\
+    }}
+ \end{itemize}
+
+%-------------LEADERSHIP AND ACTIVITIES----------
+\section{Leadership and Activities}
+ \resumeSubHeadingListStart
+  \resumeSubheading
+     {Rotaract Club of East Kolkata}{Kolkata, India}
+     {Participant}{July 2020} \vspace{2px} \\
+     {This is an NPO that works for the welfare of society and participates in social activities like educating the underprivileged, raising funds, etc. I participated in one such activity where they were raising funds for the needy by organizing an excel workshop for nominal charge.}
+  \resumeSubheading
+     {RAAHAT, Be The Change Maker}{Bhopal, India}
+     {Volunteer}{Sep. 2013 -- Apr. 2014} \vspace{2px} \\
+     {Volunteered for various events related to child welfare and helping out senior citizens at Old Age homes.}
+ \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Bachelor of Engineering in Computer Science}{7.54/10.0}
+      {RGPV University, Lakshmi Narain College of Technology and Science}{Jun. 2013 -- May 2017}
+    \resumeSubheading
+      {Higher Secondary Education}{78.2\%}
+      {St. Joseph's Co-Ed School, C.B.S.E.}{Apr. 2011 -- Mar. 2013}
+    \resumeSubheading
+      {Senior Secondary Education}{7.2/10.0}
+      {St. Joseph's Co-Ed School, C.B.S.E}{Apr. 2010 -- Mar. 2011}
+  \resumeSubHeadingListEnd
+
+%---------------EXTRA CURRICULAR ACTIVITIES----------
+\section{Extra-Curricular Activities}
+ \begin{itemize}
+     \item { \textbf {Professional Learning}{: Studied multiple courses from various MOOC platforms like Coursera and edX under domains like Cybersecurity and Programming.}}
+     \item {\textbf {Sports}{: Ran a 10km marathon organized by Decathlon - Run for your loved one.}}
+ \end{itemize}
+
+%-------------------------------------------
+\end{document}
