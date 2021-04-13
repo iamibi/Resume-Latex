@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1618148143 "/Users/syedmohammadibrahim/Desktop/Ibrahim Resume/Resume-Latex/main.tex" "/Users/syedmohammadibrahim/Desktop/Ibrahim Resume/Resume-Latex/main.pdf" "main" 1618148144
-  "/Users/syedmohammadibrahim/Desktop/Ibrahim Resume/Resume-Latex/main.aux" 1618148144 1496 e084da10577a232d43eae04379736872 ""
-  "/Users/syedmohammadibrahim/Desktop/Ibrahim Resume/Resume-Latex/main.tex" 1618148142 10894 ad551c1acf54bc67045a6bed1c013028 ""
+["pdflatex"] 1618303080 "/Users/syedmohammadibrahim/Desktop/Ibrahim Resume/Resume-Latex/main.tex" "/Users/syedmohammadibrahim/Desktop/Ibrahim Resume/Resume-Latex/main.pdf" "main" 1618303081
+  "/Users/syedmohammadibrahim/Desktop/Ibrahim Resume/Resume-Latex/main.aux" 1618303081 1496 e084da10577a232d43eae04379736872 ""
+  "/Users/syedmohammadibrahim/Desktop/Ibrahim Resume/Resume-Latex/main.tex" 1618303080 10851 6e5701a8390c3068f56f45a4f5e845b9 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1136768653 1536 02c06700a42be0f5a28664c7273f82e7 ""
@@ -93,15 +93,13 @@
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1612502280 2432470 080601e719f6b02930abeaada03b7fe9 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
   "github.png" 1618137710 4268 ef7a02b69836dc8b6a732a54c4200dcb ""
-  "linkedin.png" 1618137710 8375 1b18d461ce75c75fdb4d7b6ec08b3e65 ""
-  "main.aux" 1618148144 1496 e084da10577a232d43eae04379736872 "pdflatex"
-  "main.out" 1618148144 357 1691e001c8d40dbdbdb8a8908bf3a753 "pdflatex"
-  "main.tex" 1618148142 10894 ad551c1acf54bc67045a6bed1c013028 ""
-  "quora.png" 1618137710 1786 08c7360d6516b3f94fefad9d9bd26f21 ""
+  "main.aux" 1618303081 1496 e084da10577a232d43eae04379736872 "pdflatex"
+  "main.out" 1618303081 357 1691e001c8d40dbdbdb8a8908bf3a753 "pdflatex"
+  "main.tex" 1618303080 10851 6e5701a8390c3068f56f45a4f5e845b9 ""
   (generated)
-  "main.aux"
-  "/Users/syedmohammadibrahim/Desktop/Ibrahim Resume/Resume-Latex/main.log"
   "main.out"
-  "main.log"
   "main.pdf"
+  "/Users/syedmohammadibrahim/Desktop/Ibrahim Resume/Resume-Latex/main.log"
   "/Users/syedmohammadibrahim/Desktop/Ibrahim Resume/Resume-Latex/main.pdf"
+  "main.aux"
+  "main.log"
