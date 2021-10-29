@@ -1,267 +1,203 @@
-%-------------------------
-% Resume in Latex
-% Author : Jake Gutierrez
-% Based off of: https://github.com/sb2nov/resume
-% License : MIT
-%------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy CV/Resume
+% XeLaTeX Template
+% Version 1.0 (5/5/2014)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Debarghya Das (http://www.debarghyadas.com)
+% With extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[letterpaper,11pt]{article}
-
-\usepackage{latexsym}
-\usepackage[empty]{fullpage}
-\usepackage{titlesec}
-\usepackage{marvosym}
-\usepackage[usenames,dvipsnames]{color}
-\usepackage{verbatim}
-\usepackage{enumitem}
-\usepackage[hidelinks]{hyperref}
-\usepackage{fancyhdr}
-\usepackage[english]{babel}
-\usepackage{tabularx}
-\input{glyphtounicode}
-\usepackage{graphicx}
-\graphicspath{{./}}
-\usepackage{lastpage}
-
-
-%----------FONT OPTIONS----------
-% sans-serif
-% \usepackage[sfdefault]{FiraSans}
-% \usepackage[sfdefault]{roboto}
-% \usepackage[sfdefault]{noto-sans}
-% \usepackage[default]{sourcesanspro}
-
-% serif
-% \usepackage{CormorantGaramond}
-% \usepackage{charter}
-
-
-\pagestyle{fancy}
-\fancyhf{} % clear all header and footer fields
-\fancyfoot{}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
-
-% Adjust margins
-\addtolength{\oddsidemargin}{-0.5in}
-\addtolength{\evensidemargin}{-0.5in}
-\addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.5in}
-\addtolength{\textheight}{1.0in}
-
-\urlstyle{same}
-
-\raggedbottom
-\raggedright
-\setlength{\tabcolsep}{0in}
-
-% Sections formatting
-\titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
-
-% Ensure that generate pdf is machine readable/ATS parsable
-\pdfgentounicode=1
-
-%-------------------------
-% Custom commands
-\newcommand{\resumeItem}[1]{
-  \item\small{
-    {#1 \vspace{-2pt}}
-  }
-}
-
-\newcommand{\resumeSubheading}[4]{
-  \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeSubSubheading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeProjectHeading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \small#1 & #2 \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
-
-\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
-
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
-
-%-------------------------------------------
-%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\documentclass[letterpaper]{deedy-resume} % Use US Letter paper, change to a4paper for A4 
 
 \begin{document}
 
-%----------HEADING----------
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
 
-\begin{center}
-    \textbf{\Huge \scshape Syed Mohammad Ibrahim} \\ \vspace{1pt}
-    \small +1(240)615-3974 $|$ \href{mailto:iamibi@umd.edu}{iamibi@umd.edu} \\ \vspace{2pt}
-    \href{https://www.linkedin.com/in/iamibi}{linkedin.com/in/iamibi} $|$
-    \href{https://github.com/iamibi}{github.com/iamibi} $|$
-    \href{https://www.quora.com/profile/Syed-Mohammad-Ibrahim}{quora.com/profile/Syed-Mohammad-Ibrahim}
-\end{center}
+\namesection{Syed Mohammad}{Ibrahim}{ % Your name profile or other web address
+\href{https://github.com/iamibi}{\bf https://github.com/iamibi} | 
+\href{https://www.linkedin.com/in/iamibi/}{\bf https://www.linkedin.com/in/iamibi/} \\
+\href{mailto:iamibi@umd.edu}{iamibi@umd.edu} | \href{tel:+12406153974}{+1(240)615-3974} % Your contact information
+}
 
-%-----------EDUCATION-----------
-\section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Master of Engineering in Cybersecurity}{College Park, USA}
-      {University of Maryland, A. James Clark School of Engineering}{Aug. 2021 -- May 2023 (Exp.)}
-    \resumeSubheading
-      {Bachelor of Engineering in Computer Science (7.54/10.0)}{Bhopal, India}
-      {RGPV University, Lakshmi Narain College of Technology and Science}{Jun. 2013 -- May 2017}
-  \resumeSubHeadingListEnd
+%----------------------------------------------------------------------------------------
+%	LEFT COLUMN
+%----------------------------------------------------------------------------------------
 
-%-----------EXPERIENCE-----------
+\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+
+%------------------------------------------------
+% Skills
+%------------------------------------------------
+
+\section{Skills}
+
+\subsection{Programming}
+Python, Ruby, C/C++, Swift \\
+MongoDb, MySQL, Amazon Redshift \\
+
+\sectionspace % Some white space after the section
+
+\subsection{Network and Pentesting Tools}
+Hashcat, NMap, Hydra, Dig, \\
+Searchsploit, Metasploit \\
+
+\sectionspace % Some white space after the section
+
+\subsection{Software Tools}
+Git/GitHub, Docker, Vagrant \\
+Jenkins, Google Tag Manager \\
+
+\sectionspace % Some white space after the section
+
+\subsection{Operating System}
+Linux, MacOS, Windows \\
+
+\sectionspace % Some white space after the section
+
+%------------------------------------------------
+% Education
+%------------------------------------------------
+
+\section{Education} 
+
+\subsection{Master of Engineering, \\ Cybersecurity}
+
+\descript{University of Maryland}
+\location{Aug 2021 - May 2023 (Exp.) \\ College Park, MD, USA} 
+
+
+\sectionspace % Some white space after the section
+
+%------------------------------------------------
+
+\subsection{Bachelor of Engineering, Computer Science }
+\descript{RGPV University  -  CGPA 7.54/10}
+\location{July 2013 - June 2017 \\ Bhopal, India \\
+Graduated with Honors}
+
+%----------------------------------------------------------------------------------------
+
+\end{minipage} % The end of the left column
+\hfill
+%
+%----------------------------------------------------------------------------------------
+%	RIGHT COLUMN
+%----------------------------------------------------------------------------------------
+%
+\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+
+%------------------------------------------------
+% Experience
+%------------------------------------------------
+
 \section{Experience}
-  \resumeSubHeadingListStart
 
-    \resumeSubheading
-      {\href{https://poshmark.com}{Poshmark}}{Chennai, India}
-      {Senior Software Engineer - I}{Apr. 2021 -- Aug. 2021}
-    \resumeItemListStart
-        \resumeItem{Worked on building the infrastructure for the Milestone project with the help of utilities like RabbitMQ, MongoDB, and Sidekiq}
-        \resumeItem{Branch.io deep linking and universal linking enhancements}
-        \resumeItem{Worked on upgrading static code linter - Rubocop}
-    \resumeItemListEnd
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textit{\small{Software Engineer - II}} & \textit{\small {Jul. 2020 -- Mar. 2021}} \\
-    \end{tabular*}\vspace{-7pt}
-    \resumeItemListStart
-        \resumeItem{Migrated AppsFlyer SDK triggered tracking events to GTM based tracking events on iOS}
-        \resumeItem{Implemented OAuth 1.0 and OAuth 2.0 protocols for connecting external services like Pinterest, Twitter, Tumblr, etc}
-        \resumeItem{Improved the effectiveness of RSpec test cases by migrating to the new "expect" syntax from the "should" syntax}
-        \resumeItem{Worked on implementing the shipping promo feature for guest checkout flow}
-        \resumeItem{Revamped the whole external partner's infra for readability and removed redundancy for ease of understanding}
-        \resumeItem{Worked on migration of the Share Settings page on the web from Rails to Vue.js and respective APIs}
-        \resumeItem{Participated in Game Hackathon organized by Poshmark where the goal was to create a small game with a team}
-    \resumeItemListEnd
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textit{\small{Software Engineer - I}} & \textit{\small {Nov. 2018 -- Jul. 2020}} \\
-    \end{tabular*}\vspace{-7pt}
-    \resumeItemListStart
-        \resumeItem{Migrated the code for Ad Partners tracking from Server to Google Tag Manager (GTM)}
-        \resumeItem{Enhanced the Posh Influencer and Posh Ambassador programs along with the usage of Cron Jobs}
-        \resumeItem{Built the infrastructure for generating Image Sitemaps for indexing}
-        \resumeItem{Migrated the usage from bit.ly generator service to branch.io service for generating short URLs}
-        \resumeItem{Participated in the Hackathon organized by Poshmark to work as a team and built a Chatbot using Dialogflow and Crickinfo API}
-        \resumeItem{Participated in the Hacktoberfest 2k18 and created multiple open-source pull request changes to different libraries}
-    \resumeItemListEnd
-    
-    \resumeSubheading
-      {\href{https://www.tcs.com/tcs-interactive}{Tata Consultancy Services}}{Chennai, India}
-      {Assistant System Engineer}{Jul. 2018 -- Nov. 2018}
-    \resumeItemListStart
-        \resumeItem{Part of TCS Interactive, a research-based unit}
-        \resumeItem{Developed search functionality for the client's enterprise iOS App}
-        \resumeItem{Hosted a tech session for the team on Django as a development framework}
-        \resumeItem{Upgraded the iOS App with new models and designs as per the client's requirement using Swift 4}
-        \resumeItem{Built the native iOS unit testing framework to perform Test Driven Development (TDD)}
-    \resumeItemListEnd
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textit{\small{Assistant System Engineer - Trainee}} & \textit{\small {Aug. 2017 -- Jul. 2018}} \\
-    \end{tabular*}\vspace{-7pt}
-    \resumeItemListStart
-        \resumeItem{Trainee in Automation and Manual testing.}
-        \resumeItem{Worked on various kinds of test suites like selenium, HP Quick Test Pro, etc}
-        \resumeItem{Worked on Front-end development as the final project for the training}
-        \resumeItem{Learned Swift 4 as part of the iOS development project that I was assigned to}
-    \resumeItemListEnd
-  \resumeSubHeadingListEnd
+\runsubsection{Poshmark}
+\descript{| Chennai, India}
 
-%-----------PROJECTS-----------
-\section{Projects}
-\resumeSubHeadingListStart
-  \resumeProjectHeading
-      {\textbf{Laughter Challenge} $|$ \emph{HTML, CSS, Bootstrap, Javascript}}{\href{https://github.com/harshmandalgi/laugh-challenge}{\includegraphics[scale=0.10]{github.png}}}
-      \resumeItemListStart
-        \resumeItem{At hackathon named Game-Jam organized by Poshmark, we as a team created a Try Not to Laugh Challenge where the player will be presented with funny videos and will be tempted to laugh}
-        \resumeItem{Created a webpage which renders a video section and a user camera section}
-        \resumeItem{A miniature machine learning library is used for identifying the player’s smile and scoring them accordingly}
-      \resumeItemListEnd
-  \resumeProjectHeading
-      {\textbf{Cricket Chatbot} $|$ \emph{Dialogflow, Cricinfo API}}{}
-      \resumeItemListStart
-        \resumeItem{A cricket chatbot designed during the Poshmark Hackathon}
-        \resumeItem{Used the Dialogflow API integration with Slack and Crickinfo API to fetch real time updates}
-        \resumeItem{User has to ask questions in the form of Slack messages about cricket and the chatbot will answer based on the API response}
-      \resumeItemListEnd
-  \resumeProjectHeading
-      {\textbf{Blowfish Cipher} $|$ \emph{Python}}{\href{https://github.com/iamibi/Blowfish-Cipher}{\includegraphics[scale=0.10]{github.png}}}
-      \resumeItemListStart
-        \resumeItem{Minor project on analysis and implementation of blowfish cipher for password encryption}
-        \resumeItem{A terminal based program that accepts a password as input and saves it as a cipher text in a file}
-      \resumeItemListEnd
-  \resumeProjectHeading
-      {\textbf{RSA Cryptographic Algorithm} $|$ \emph{Python}}{\href{https://github.com/iamibi/RSA-Cryptographic-Algorithm}{\includegraphics[scale=0.10]{github.png}}}
-      \resumeItemListStart
-        \resumeItem{RSA Algorithm for message encryption using block cipher}
-        \resumeItem{Accepts a plain text message via terminal or file as input and outputs an encrypted message}
-      \resumeItemListEnd
-\resumeSubHeadingListEnd
+\location{Senior Software Engineer - 1 | April 2021 – August 2021}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightitemize}
+\item Worked on building the infrastructure for the Milestone project with the help of utilities like RabbitMQ, MongoDB, and Sidekiq
+\end{tightitemize}
 
-%-----------TECHNICAL SKILLS-----------
-\section{Technical Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Languages}{: Ruby, Python, C/C++, Swift } \\
-     \textbf{Frameworks}{: Ruby on Rails, Node.js, Cucumber, RSpec, XCode Test Suite } \\
-     \textbf{Databases}{: MongoDB, Amazon Redshift } \\
-     \textbf{Developer Tools}{: Git, Docker, Vagrant, Google Tag Manager, Jenkins, Hashcat } \\
-    }}
- \end{itemize}
+\location{Software Engineer - 2 | July 2020 - March 2021}
+\begin{tightitemize}
+\item Implemented OAuth 1.0 and OAuth 2.0 protocols for connecting external services like Pinterest, Twitter, Tumblr, etc.
+\item Worked on implementing the shipping promo feature for guest checkout flow
+\item Worked on migration of the Share Settings page on the web from Rails to Vue.js and respective APIs
+\end{tightitemize}
 
- %-------------HONORS AND AWARDS-------------
-\section{Honors and Awards}
-\begin{itemize}[leftmargin=0.15in, label={}]
-   \small{\item{
-    \textbf{Star Performer}{: Star performer at TCS for valuable contribution to the project} \\
-    \textbf{Academics}{:} 
-    \resumeItemListStart
-       \resumeItem {Earned Elite Certificate in \href{https://nptel.ac.in/noc/Ecertificate/?q=noc15-cs15/NPTEL15CS150614020.jpg}{\underline{Introduction to Programming in C}} from IIT Kanpur}
-       \resumeItem {Earned Elite Certificate in \href{https://nptel.ac.in/noc/Ecertificate/?q=linkedin/noc16-cs06/NPTEL16CS062715051.jpg}{\underline{Programming, Data Structures and Algorithms}} from IIT Madras}
-       \resumeItem {Won Clash of Codies organized by SISTech, Bhopal}
-       \resumeItem {Achieved 177th Position in TCS Code Vita 2k16 at National Level}
-    \resumeItemListEnd
-   }}
-\end{itemize}
+\location{Software Engineer - 1 | November 2018 - June 2020}
+\begin{tightitemize}
+\item Migrated the code for Ad Partners tracking from Server to Google Tag Manager (GTM)
+\item Enhanced the Posh Influencer and Posh Ambassador programs along with the usage of Cron Jobs
+\item Built the infrastructure for generating Image Sitemaps for indexing
+\end{tightitemize}
 
-%-------------LEADERSHIP AND ACTIVITIES----------
-\section{Leadership and Activities}
- \resumeSubHeadingListStart
-  \resumeSubheading
-     {Rotaract Club of East Kolkata}{Kolkata, India}
-     {Participant}{July 2020} \vspace{2px} \\
-     {This is an NPO that works for the welfare of society and participates in social activities like educating the underprivileged, raising funds, etc. I participated in one such activity where they were raising funds for the needy by organizing an excel workshop for nominal charge.}
-  \resumeSubheading
-     {RAAHAT, Be The Change Maker}{Bhopal, India}
-     {Volunteer}{Sep. 2013 -- Apr. 2014} \vspace{2px} \\
-     {Volunteered for various events related to child welfare and helping out senior citizens at Old Age homes.}
- \resumeSubHeadingListEnd
+\runsubsection{Tata Consultancy Services}
+\descript{| Chennai, India}
 
-%---------------EXTRA CURRICULAR ACTIVITIES----------
-\section{Extra-Curricular Activities}
- \begin{itemize}
-     \item { \textbf {Professional Learning}{: Studied multiple courses from various MOOC platforms like Coursera and edX under domains like Cybersecurity and Programming.}}
-     \item {\textbf {Sports}{: Ran a 10km marathon organized by Decathlon - Run for your loved one.}}
- \end{itemize}
+\location{Assistant System Engineer | July 2018 – November 2018}
+\begin{tightitemize}
+\item Developed search functionality for the client's enterprise iOS App
+\item Built the native iOS unit testing framework to perform Test Driven Development (TDD)
+\end{tightitemize}
 
-%-------------------------------------------
+\location{Assistant System Engineer - Trainee | August 2017 – June 2018}
+\begin{tightitemize}
+\item Worked on various kinds of test suites like selenium, HP Quick Test Pro, etc
+\item Worked on Front-end development as the final project for the training
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Project
+%------------------------------------------------
+
+\section{Projects} 
+
+\runsubsection{\href{https://github.com/iamibi/EMS}{Employee Management System}} \\
+\location{C\#, ASP.Net MVC Core, Microsoft Security Libraries}
+\begin{tightitemize}
+\item A project to manage employees in an organization 
+\item Primary focus was on addressing Common Weakness Enumeration(CWE) and Security
+\end{tightitemize}
+\sectionspace % Some whitespace after the section
+
+\runsubsection{\href{https://github.com/harshmandalgi/laugh-challenge}{Laughter Challenge}} \\
+\location{HTML, CSS, Bootstrap, Javascript}
+\begin{tightitemize}
+\item At hackathon named Game-Jam organized by Poshmark, we as a team created a Try Not to Laugh Challenge where the player will be presented with funny videos and will be tempted to laugh
+\item Created a webpage which renders a video section and a user camera section
+\item A miniature machine learning library is used for identifying the player’s smile and scoring them accordingly
+\end{tightitemize}
+\sectionspace % Some whitespace after the section
+
+\runsubsection{\href{https://github.com/iamibi/Blowfish-Cipher}{Blowfish Cipher}} \\
+\location{Python}
+\begin{tightitemize}
+\item Minor Project on implementing the Blowfish Cipher and using that to securely store credentials in a file
+\end{tightitemize}
+\sectionspace % Some whitespace after the section
+
+%----------------------------------------------------------------------------------------
+
+\end{minipage} % The end of the right column
+
+%----------------------------------------------------------------------------------------
+%	SECOND PAGE (EXAMPLE)
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+
+%\section{Example Section}
+
+%\end{minipage} % The end of the left column
+%\hfill
+%\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+
+%\section{Example Section 2}
+
+%\end{minipage} % The end of the right column
+
+%----------------------------------------------------------------------------------------
+
 \end{document}
