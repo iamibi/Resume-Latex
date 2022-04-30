@@ -111,7 +111,7 @@
 %----------HEADING----------
 
 \begin{center}
-    \textbf{\Huge \scshape Syed Mohammad Ibrahim} \\ \vspace{1pt}
+    \textbf{\Huge{Syed Mohammad Ibrahim}} \\ \vspace{1pt}
     \href{mailto:work.smibrahim@gmail.com}{work.smibrahim@gmail.com} $|$
     \href{https://iamibi.app.link/linkedin}{iamibi.app.link/linkedin} $|$
     \href{https://iamibi.app.link/github}{iamibi.app.link/github} $|$
@@ -123,19 +123,29 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {Master of Engineering in Cybersecurity (4.0/4.0)}{College Park, USA}
-      {University of Maryland, A. James Clark School of Engineering}{Aug. 2021 -- May 2023 (Exp.)}
+      {University of Maryland, A. James Clark School of Engineering}{Aug. 2021 -- Dec. 2022 (Exp.)}
       \begin{itemize}[leftmargin=0.15in, label={}]
-        \small{\item{
-         \textbf{Coursework}{: } \\
-         \resumeItemListStart
-          \resumeItem{Introduction to Secure Coding}
-          \resumeItem{Penetration Testing}
-          \resumeItem{Hacking of C Programs and Unix Binaries}
-          \resumeItem{Secure Operating Systems}
-          \resumeItem{Security Tools for Information Security}
-          \resumeItem{Network Security}
-         \resumeItemListEnd
-        }}
+        \small{
+          \item{
+            \textbf{Coursework}{: } \\
+            \begin{tabularx}{\textwidth}{
+                @{\hspace{1.5em}}% Space for left bullet
+                >{\leavevmode\llap{\textbullet~}\raggedright}% Left bullet + formatting of column
+                X% Left column specification
+                @{\quad\hspace{1.5em}}% Space between columns + right bullet space
+                >{\leavevmode\llap{\textbullet~}\raggedright\arraybackslash}% Right bullet + formatting of column
+                X% Right column specification
+                @{}% No column space on right
+            }
+              Introduction to Secure Coding & 
+              Penetration Testing \\
+              Hacking of C Programs and Unix Binaries & 
+              Secure Operating Systems \\
+              Security Tools for Information Security &
+              Network Security
+            \end{tabularx}
+          }
+        }
      \end{itemize}
     \resumeSubheading
       {Bachelor of Engineering in Computer Science (7.54/10.0)}{Bhopal, India}
@@ -183,6 +193,16 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
+      {\href{https://www.cma.fraunhofer.org/}{Fraunhofer Center Mid-Atlantic (CMA)}}{Adelphi, USA}
+      {Software Engineer Intern - Part Time}{Jan. 2022 -- May 2022}
+    \resumeItemListStart
+      \resumeItem{Worked on developing REST API's for backend using Flask}
+      \resumeItem{Implemented the architecture to interact with AWS Dynamo DB using Python's Boto 3 library}
+      \resumeItem{Used PyTest to perform unit and functional testing for the applciation}
+      \resumeItem{Implemented AWS Cognito login authentication on server side}
+    \resumeItemListEnd
+    
+    \resumeSubheading
       {\href{https://poshmark.com}{Poshmark}}{Chennai, India}
       {Senior Software Engineer - I}{Apr. 2021 -- Aug. 2021}
     \resumeItemListStart
@@ -200,7 +220,6 @@
         \resumeItem{Worked on implementing the shipping promo feature for guest checkout flow}
         \resumeItem{Revamped the whole external partner's infra for readability and removed redundancy for ease of understanding}
         \resumeItem{Worked on migration of the Share Settings page on the web from Rails to Vue.js and respective APIs}
-        \resumeItem{Participated in Game Hackathon organized by Poshmark where the goal was to create a small game with a team}
     \resumeItemListEnd
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textit{\small{Software Engineer - I}} & \textit{\small {Nov. 2018 -- Jul. 2020}} \\
@@ -209,8 +228,6 @@
         \resumeItem{Migrated the code for Ad Partners tracking from Server to Google Tag Manager (GTM)}
         \resumeItem{Enhanced the Posh Influencer and Posh Ambassador programs along with the usage of Cron Jobs}
         \resumeItem{Built the infrastructure for generating Image Sitemaps for indexing}
-        \resumeItem{Migrated the usage from bit.ly generator service to branch.io service for generating short URLs}
-        \resumeItem{Participated in the Hackathon organized by Poshmark to work as a team and built a Chatbot using Dialogflow and Crickinfo API}
         \resumeItem{Participated in the Hacktoberfest 2k18 and created multiple open-source pull request changes to different libraries}
     \resumeItemListEnd
 
@@ -218,10 +235,7 @@
       {\href{https://www.tcs.com/tcs-interactive}{Tata Consultancy Services}}{Chennai, India}
       {Assistant System Engineer}{Jul. 2018 -- Nov. 2018}
     \resumeItemListStart
-        \resumeItem{Part of TCS Interactive, a research-based unit}
         \resumeItem{Developed search functionality for the client's enterprise iOS App}
-        \resumeItem{Hosted a tech session for the team on Django as a development framework}
-        \resumeItem{Upgraded the iOS App with new models and designs as per the client's requirement using Swift 4}
         \resumeItem{Built the native iOS unit testing framework to perform Test Driven Development (TDD)}
     \resumeItemListEnd
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
@@ -230,7 +244,6 @@
     \resumeItemListStart
         \resumeItem{Trainee in Automation and Manual testing.}
         \resumeItem{Worked on various kinds of test suites like selenium, HP Quick Test Pro, etc}
-        \resumeItem{Worked on Front-end development as the final project for the training}
         \resumeItem{Learned Swift 4 as part of the iOS development project that I was assigned to}
     \resumeItemListEnd
   \resumeSubHeadingListEnd
@@ -239,9 +252,9 @@
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Ruby, Python, C/C++, Swift } \\
-     \textbf{Frameworks}{: Ruby on Rails, Node.js, Cucumber, RSpec, XCode Test Suite } \\
-     \textbf{Databases}{: MongoDB, Amazon Redshift } \\
+     \textbf{Languages}{: Ruby, Python, C/C++ } \\
+     \textbf{Frameworks}{: Ruby on Rails, Cucumber, RSpec, XCode Test Suite, Flask } \\
+     \textbf{Databases}{: MongoDB, Amazon Redshift, AWS Dynamo DB } \\
      \textbf{Developer Tools}{: Git, Docker, Vagrant, Google Tag Manager, Jenkins } \\
      \textbf{Network \& Pentesting Tools}{: Hashcat, Burp Suite, AFL, NMap, Hydra, Dig, Searchsploit, Wpscan, Metasploit, Wireshark, Nessus }
     }}
@@ -250,6 +263,10 @@
 %-------------LEADERSHIP AND ACTIVITIES----------
 \section{Leadership and Activities}
  \resumeSubHeadingListStart
+  \resumeSubheading
+     {Bit Camp, Hackathon}{College Park, MD, USA}
+     {Mentor}{Apr. 2022} \vspace{2px} \\
+     {Primary responsiblity involved assisting the hackers in unblocking their technical road blocks by providing insights on their desired tech stack}
   \resumeSubheading
      {Technica, Hackathon}{College Park, MD, USA}
      {Mentor}{Nov. 2021} \vspace{2px} \\
